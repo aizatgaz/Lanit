@@ -38,7 +38,10 @@ public class StoreAppTest {
                 .then()
                 .assertThat()
                 .contentType(ContentType.JSON)
-                .body(Matchers.notNullValue());
+                .body(Matchers.notNullValue())
+                .body("sold", Matchers.greaterThanOrEqualTo(0))
+                .body("pending", Matchers.greaterThanOrEqualTo(0))
+                .body("available", Matchers.greaterThanOrEqualTo(0));
     }
 
     /**
