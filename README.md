@@ -24,6 +24,6 @@
 ### Запуск тестов
 Для запуска всех тестов выполните команду: **'mvn clean test'**
 
-Для запуска позитивных тестов: **'mvn test -Dgroups="positive"'**
+Для запуска позитивных тестов: **'mvn clean test -Dgroups="positive"'**
 
-Для запуска негативных тестов: **'mvn test -Dgroups="negative"'**
+Для запуска негативных тестов: **'mvn clean test -Dgroups="negative"'**
