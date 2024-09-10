@@ -18,6 +18,8 @@ public final class Constants {
 
     public static final String STATUS_TYPE_UNKNOWN = "unknown";
 
+    public static final String STATUS_TYPE_SERVER_ERROR = "Error 500 Server Error";
+
     public static final String NO_DATA = "No data";
 
     public static final String ORDER_NOT_FOUND = "Order not found";
